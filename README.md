@@ -39,3 +39,6 @@ Built to deliver a **working prototype in ≤ 5 hours**
 - Mess feedback or broken hostel light → routed to facilities team
 - Lost wallet → posted in Lost & Found with location & contact
 - Festival → traffic diversion alert shown on dashboard
+
+  <img width="852" height="525" alt="diagram-export-26-08-2025-14_24_34" src="https://github.com/user-attachments/assets/8f4174fa-4c91-42f4-a0ef-d09e44cf8a3a" />
+
