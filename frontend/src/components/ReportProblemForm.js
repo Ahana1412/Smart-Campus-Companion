@@ -4,7 +4,7 @@ import { api } from "../api";
 const ReportProblemForm = () => {
   const [formData, setFormData] = useState({
     name: "",
-    issue: "",
+    title: "",
     description: "",
     location: "",
   });
@@ -35,13 +35,14 @@ const ReportProblemForm = () => {
           required
         />
         <input
-          type="text"
-          name="issue"
-          placeholder="Issue Title"
-          value={formData.issue}
-          onChange={handleChange}
-          required
-        />
+  type="text"
+  name="title"
+  placeholder="Issue Title"
+  value={formData.title}
+  onChange={handleChange}
+  required
+/>
+
         <textarea
           name="description"
           placeholder="Problem Description"
