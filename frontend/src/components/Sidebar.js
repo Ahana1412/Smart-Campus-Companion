@@ -1,12 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Sidebar = ({ onSelect }) => {
+
+const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h2 className="title">Smart Campus</h2>
+      <h2>Campus Menu</h2>
       <ul>
-        <li onClick={() => onSelect("lostfound")}>Lost & Found</li>
-        <li onClick={() => onSelect("problem")}>Report Problem</li>
+        <li><Link to="/"> Dashboard</Link></li>
+        <li><Link to="/lostfound"> Lost & Found</Link></li>
+        <li><Link to="/reportproblem"> Report Problem</Link></li>
       </ul>
     </div>
   );
